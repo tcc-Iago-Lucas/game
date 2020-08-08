@@ -1,5 +1,4 @@
 [
 null,
-{"id":1,"battlerName":"Iago","characterIndex":0,"characterName":"Iago","classId":1,"equips":[1,0,2,3,4],"faceIndex":1,"faceName":"Iago","traits":[{"code":51,"dataId":11,"value":1},{"code":41,"dataId":1,"value":1}],"initialLevel":3,"maxLevel":99,"name":"Iago","nickname":"","note":"","profile":""},
-{"id":2,"battlerName":"Thais","characterIndex":0,"characterName":"Thais","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Thais","traits":[],"initialLevel":1,"maxLevel":99,"name":"Thais","nickname":"","note":"","profile":""}
+{"id":1,"battlerName":"Iago","characterIndex":0,"characterName":"Iago","classId":1,"equips":[1,0,2,3,4],"faceIndex":1,"faceName":"Iago","traits":[{"code":51,"dataId":11,"value":1},{"code":41,"dataId":1,"value":1}],"initialLevel":5,"maxLevel":99,"name":"Iago","nickname":"","note":"","profile":""}
 ]
