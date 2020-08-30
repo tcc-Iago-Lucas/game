@@ -4,10 +4,10 @@ null,
 {"id":2,"expanded":true,"name":"Fase1-1","order":5,"parentId":0,"scrollX":832,"scrollY":640},
 {"id":3,"expanded":true,"name":"Corredor/Elevador","order":6,"parentId":0,"scrollX":832,"scrollY":640},
 {"id":4,"expanded":false,"name":"Elevador","order":7,"parentId":3,"scrollX":542,"scrollY":305},
-{"id":5,"expanded":false,"name":"Seleção de Personagem","order":8,"parentId":0,"scrollX":832,"scrollY":640},
+null,
 {"id":6,"expanded":false,"name":"Casa_Banheiro","order":2,"parentId":1,"scrollX":832,"scrollY":640},
 {"id":7,"expanded":false,"name":"Quarto_Jogador","order":3,"parentId":1,"scrollX":542,"scrollY":305.5},
 {"id":8,"expanded":false,"name":"Casa_Terreo","order":4,"parentId":1,"scrollX":832,"scrollY":640},
 null,
-{"id":10,"expanded":false,"name":"Fase1-2 / Segundo Andar","order":9,"parentId":0,"scrollX":542,"scrollY":305.5}
+{"id":10,"expanded":false,"name":"Fase1-2 / Segundo Andar","order":8,"parentId":0,"scrollX":542,"scrollY":305.5}
 ]
