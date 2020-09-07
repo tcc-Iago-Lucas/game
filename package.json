@@ -5,8 +5,6 @@
     "window": {
         "title": "",
         "toolbar": false,
-        "width": 816,
-        "height": 624,
         "icon": "icon/icon.png"
     }
 }
