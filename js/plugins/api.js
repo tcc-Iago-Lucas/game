@@ -12,6 +12,10 @@
   @type text
   @default hello world!
 
+  @param token
+  @desc token do usuario para comunicação com api
+  @type text
+
  */
     
   var manager = manager ||  {};
@@ -30,14 +34,15 @@
     },
     post(json) {
       var ajax = this.getAjax();
-      ajax.open("POST", "http://localhost:5759/role/create", true);
+      ajax.open("POST", `${manager.MadeWithMV.Parameters['baseurl']}/resposta`, true);
       ajax.setRequestHeader("Content-type", "application/json;charset=UTF-8");
+      ajax.setRequestHeader("Authorization", `${manager.MadeWithMV.Parameters['token']}`);
       ajax.onreadystatechange = async function () {
         if (ajax.readyState == 4 && ajax.status == 200) {
-          var { id } = JSON.parse(ajax.response);
+          var response = JSON.parse(ajax.response);
           // Retorno do Ajax
-          $gameVariables._data[4] = id;
-          console.log("response da api, id = ", $gameVariables._data[4]);
+          $gameVariables._data[20] = response;
+          console.log("response da api,  ", JSON.parse(ajax.response));
         }
       };
       ajax.send(JSON.stringify(json));
