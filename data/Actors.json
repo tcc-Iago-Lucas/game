@@ -1,6 +1,6 @@
 [
 null,
-{"id":1,"battlerName":"Iago","characterIndex":0,"characterName":"Iago","classId":1,"equips":[1,0,2,3,4],"faceIndex":1,"faceName":"Iago","traits":[{"code":51,"dataId":11,"value":1},{"code":41,"dataId":1,"value":1}],"initialLevel":50,"maxLevel":99,"name":"Iago","nickname":"","note":"","profile":""},
+{"id":1,"battlerName":"Iago","characterIndex":0,"characterName":"Iago","classId":1,"equips":[0,0,0,0,0],"faceIndex":1,"faceName":"Iago","traits":[{"code":51,"dataId":11,"value":1},{"code":41,"dataId":1,"value":1}],"initialLevel":10,"maxLevel":99,"name":"Iago","nickname":"","note":"","profile":""},
 {"id":2,"battlerName":"","characterIndex":5,"characterName":"People1","classId":1,"equips":[0,0,0,0,0],"faceIndex":5,"faceName":"People1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Mãe","nickname":"","note":"","profile":""},
 {"id":3,"battlerName":"","characterIndex":1,"characterName":"Paulo","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Paulo","traits":[],"initialLevel":1,"maxLevel":99,"name":"Paulo","nickname":"","note":"","profile":""},
 {"id":4,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":1,"faceName":"VilaoOculto","traits":[],"initialLevel":1,"maxLevel":99,"name":"Vilão","nickname":"","note":"","profile":""},

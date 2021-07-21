@@ -1,6 +1,6 @@
 [
 null,
-{"id":1,"expanded":true,"name":"Tutorial","order":1,"parentId":0,"scrollX":542,"scrollY":305.5},
+{"id":1,"expanded":true,"name":"Tutorial","order":1,"parentId":0,"scrollX":1178.1818181818182,"scrollY":666.5454545454546},
 {"id":2,"expanded":true,"name":"Fase1-1","order":5,"parentId":0,"scrollX":542,"scrollY":305.5},
 {"id":3,"expanded":true,"name":"Capitulo 1","order":6,"parentId":0,"scrollX":542,"scrollY":305.5},
 {"id":4,"expanded":false,"name":"Elevador","order":7,"parentId":3,"scrollX":542,"scrollY":305.5},
@@ -12,5 +12,5 @@ null,
 {"id":10,"expanded":true,"name":"Terceiro Andar","order":11,"parentId":5,"scrollX":542,"scrollY":305.5},
 {"id":11,"expanded":true,"name":"Fase1-2 / Segundo Andar","order":8,"parentId":3,"scrollX":542,"scrollY":305.5},
 {"id":12,"expanded":true,"name":"Sala dos Vendedores","order":12,"parentId":10,"scrollX":1626,"scrollY":916.5},
-{"id":13,"expanded":false,"name":"PC da Personagem - Jogo","order":13,"parentId":12,"scrollX":1281.6,"scrollY":733.1999999999999}
+{"id":13,"expanded":false,"name":"PC da Personagem - Jogo","order":13,"parentId":12,"scrollX":1160.7272727272727,"scrollY":734.1818181818182}
 ]
