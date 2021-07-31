@@ -11,6 +11,6 @@ null,
 {"id":9,"expanded":true,"name":"Sala do Paulo","order":10,"parentId":5,"scrollX":542,"scrollY":305.5},
 {"id":10,"expanded":true,"name":"Terceiro Andar","order":11,"parentId":5,"scrollX":542,"scrollY":305.5},
 {"id":11,"expanded":true,"name":"Fase1-2 / Segundo Andar","order":8,"parentId":3,"scrollX":542,"scrollY":305.5},
-{"id":12,"expanded":true,"name":"Sala dos Vendedores","order":12,"parentId":10,"scrollX":1626,"scrollY":916.5},
-{"id":13,"expanded":false,"name":"PC da Personagem - Jogo","order":13,"parentId":12,"scrollX":1165.0909090909092,"scrollY":821.4545454545455}
+{"id":12,"expanded":true,"name":"Sala dos Vendedores","order":12,"parentId":10,"scrollX":832,"scrollY":640},
+{"id":13,"expanded":false,"name":"PC da Personagem - Jogo","order":13,"parentId":12,"scrollX":816,"scrollY":624}
 ]
