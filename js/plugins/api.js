@@ -32,6 +32,21 @@
       }
       return ajax;
     },
+    login(json){
+      var ajax = this.getAjax();
+      ajax.open("POST", `${manager.MadeWithMV.Parameters['baseurl']}/auth`, true);
+      ajax.setRequestHeader("Content-type", "application/json;charset=UTF-8");
+      ajax.setRequestHeader("Authorization", `${manager.MadeWithMV.Parameters['token']}`);
+      ajax.onreadystatechange = async function () {
+        if (ajax.readyState == 4 && ajax.status == 200) {
+          var response = JSON.parse(ajax.response);
+          // Retorno do Ajax
+         // $gameVariables._data[20] = response;
+          console.log("response da api,  ", JSON.parse(ajax.response));
+        }
+      };
+      ajax.send(JSON.stringify(json));
+    },
     post(json) {
       var ajax = this.getAjax();
       ajax.open("POST", `${manager.MadeWithMV.Parameters['baseurl']}/resposta`, true);
