@@ -22,7 +22,7 @@
   manager.MadeWithMV = {};
   manager.MadeWithMV.Parameters = PluginManager.parameters('api');
   
-  alert(manager.MadeWithMV.Parameters['baseurl']);
+  
 
   api = {
     getAjax() {
