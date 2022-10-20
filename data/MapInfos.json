@@ -1,20 +1,20 @@
 [
 null,
-{"id":1,"expanded":true,"name":"Tutorial","order":1,"parentId":0,"scrollX":819,"scrollY":451},
+{"id":1,"expanded":true,"name":"Tutorial","order":1,"parentId":0,"scrollX":722.6666666666666,"scrollY":406.6666666666667},
 {"id":2,"expanded":true,"name":"Fase1-1","order":5,"parentId":0,"scrollX":817,"scrollY":445.5},
 {"id":3,"expanded":true,"name":"Capitulo 1","order":6,"parentId":0,"scrollX":819,"scrollY":451},
 {"id":4,"expanded":false,"name":"Elevador","order":7,"parentId":3,"scrollX":722.6666666666666,"scrollY":407.3333333333333},
-{"id":5,"expanded":true,"name":"Capitulo 2","order":9,"parentId":0,"scrollX":819,"scrollY":451},
+{"id":5,"expanded":true,"name":"Capitulo 2","order":9,"parentId":0,"scrollX":722.6666666666666,"scrollY":406.6666666666667},
 {"id":6,"expanded":false,"name":"Casa_Banheiro","order":2,"parentId":1,"scrollX":722.6666666666666,"scrollY":406.6666666666667},
 {"id":7,"expanded":false,"name":"Quarto_Jogador","order":3,"parentId":1,"scrollX":819,"scrollY":451},
 {"id":8,"expanded":false,"name":"Casa_Terreo","order":4,"parentId":1,"scrollX":819,"scrollY":462.5},
-{"id":9,"expanded":true,"name":"Sala do Paulo","order":10,"parentId":5,"scrollX":819,"scrollY":451},
-{"id":10,"expanded":true,"name":"Terceiro Andar","order":11,"parentId":5,"scrollX":722.6666666666666,"scrollY":407.3333333333333},
+{"id":9,"expanded":true,"name":"Sala do Paulo","order":10,"parentId":5,"scrollX":722.6666666666666,"scrollY":406.6666666666667},
+{"id":10,"expanded":true,"name":"Terceiro Andar","order":11,"parentId":5,"scrollX":722.6666666666666,"scrollY":406.6666666666667},
 {"id":11,"expanded":true,"name":"Fase1-2 / Segundo Andar","order":8,"parentId":3,"scrollX":722.6666666666666,"scrollY":407.3333333333333},
-{"id":12,"expanded":false,"name":"Sala dos Vendedores","order":12,"parentId":10,"scrollX":819,"scrollY":451},
+{"id":12,"expanded":true,"name":"Sala dos Vendedores","order":12,"parentId":10,"scrollX":722.6666666666666,"scrollY":406.6666666666667},
 {"id":13,"expanded":false,"name":"PC da Personagem - Jogo","order":13,"parentId":12,"scrollX":712,"scrollY":396},
-{"id":14,"expanded":false,"name":"Sala Sistemas IDS IPS","order":14,"parentId":10,"scrollX":811,"scrollY":451},
-{"id":15,"expanded":false,"name":"Sala Ameaças","order":15,"parentId":10,"scrollX":819,"scrollY":451},
+{"id":14,"expanded":false,"name":"Sala Sistemas IDS IPS","order":14,"parentId":10,"scrollX":712,"scrollY":1286.6666666666667},
+{"id":15,"expanded":false,"name":"Sala Ameaças","order":15,"parentId":10,"scrollX":722.6666666666666,"scrollY":406.6666666666667},
 {"id":16,"expanded":false,"name":"Sala de Simulação","order":16,"parentId":15,"scrollX":722.6666666666666,"scrollY":406.6666666666667},
-{"id":17,"expanded":false,"name":"tela_login","order":17,"parentId":0,"scrollX":819,"scrollY":451}
+{"id":17,"expanded":false,"name":"tela_login","order":17,"parentId":0,"scrollX":722.6666666666666,"scrollY":406.6666666666667}
 ]
