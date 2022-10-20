@@ -37,12 +37,13 @@
       ajax.open("POST", `${manager.MadeWithMV.Parameters['baseurl']}/auth`, true);
       ajax.setRequestHeader("Content-type", "application/json;charset=UTF-8");
       ajax.onreadystatechange = async function () {
+        $gameVariables._data[97] = 1;
         if (ajax.readyState == 4 && ajax.status == 200) {
           var response = JSON.parse(ajax.response);
           // Retorno do Ajax
          // $gameVariables._data[20] = response;
           manager.MadeWithMV.Parameters['token'] = "Bearer " + response.token;
-
+          $gameVariables._data[99] = 1;
           console.log("response da api,  ", JSON.parse(ajax.response));
           console.log("novo token: " , manager.MadeWithMV.Parameters['token'] );
         }
