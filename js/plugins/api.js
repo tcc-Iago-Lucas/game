@@ -44,8 +44,11 @@
          // $gameVariables._data[20] = response;
           manager.MadeWithMV.Parameters['token'] = "Bearer " + response.token;
           $gameVariables._data[99] = 1;
+          $gameVariables._data[90] = JSON.stringify(ajax.response);
           console.log("response da api,  ", JSON.parse(ajax.response));
           console.log("novo token: " , manager.MadeWithMV.Parameters['token'] );
+        }else{
+          $gameVariables._data[90] = JSON.stringify(ajax.response);
         }
       };
       ajax.send(JSON.stringify(json));
