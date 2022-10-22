@@ -33,6 +33,7 @@
       return ajax;
     },
     login(json){
+      alert("body: " + JSON.stringify(json))
       var ajax = this.getAjax();
       ajax.open("POST", `${manager.MadeWithMV.Parameters['baseurl']}/auth`, true);
       ajax.setRequestHeader("Content-type", "application/json;charset=UTF-8");
@@ -44,11 +45,11 @@
          // $gameVariables._data[20] = response;
           manager.MadeWithMV.Parameters['token'] = "Bearer " + response.token;
           $gameVariables._data[99] = 1;
-          $gameVariables._data[90] = JSON.stringify(ajax.response);
+         alert(JSON.stringify(ajax));
           console.log("response da api,  ", JSON.parse(ajax.response));
           console.log("novo token: " , manager.MadeWithMV.Parameters['token'] );
         }else{
-          $gameVariables._data[90] = JSON.stringify(ajax.response);
+         alert(JSON.stringify(ajax.response));
         }
       };
       ajax.send(JSON.stringify(json));
