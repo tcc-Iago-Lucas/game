@@ -45,12 +45,19 @@
       .then(response => response.json()) 
       .then(json => {
         $gameVariables._data[97] = 1
-        $gameVariables._data[99] = 1;
-        manager.MadeWithMV.Parameters['token'] = "Bearer " + json.token;
+        console.log(json);
+        if(json.status != 200){
+          $gameVariables._data[99] = 0;
+        }
+        if(json.token){
+          $gameVariables._data[99] = 1;
+          manager.MadeWithMV.Parameters['token'] = "Bearer " + json.token;
+        }
       })
       .catch(err => {
         $gameVariables._data[97] = 1
-        console.log(err)
+        $gameVariables._data[99] = 0
+        alert(err)
       });
       /*var ajax = this.getAjax();
       ajax.open("POST", `${manager.MadeWithMV.Parameters['baseurl']}/auth`, true);
