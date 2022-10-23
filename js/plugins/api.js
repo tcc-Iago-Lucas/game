@@ -45,7 +45,7 @@
       .then(response => response.json()) 
       .then(json => {
         $gameVariables._data[97] = 1
-        alert(json);
+        alert(JSON.stringify(json));
         if(json.status != 200){
           $gameVariables._data[99] = 0;
         }
