@@ -45,7 +45,7 @@
       .then(response => response.json()) 
       .then(json => {
         $gameVariables._data[97] = 1
-        alert(JSON.stringify(json));
+       // alert(JSON.stringify(json));
         if(json.status != 200){
           $gameVariables._data[99] = 0;
         }
@@ -57,7 +57,7 @@
       .catch(err => {
         $gameVariables._data[97] = 1
         $gameVariables._data[99] = 0
-        alert(err)
+       // alert(err)
       });
       /*var ajax = this.getAjax();
       ajax.open("POST", `${manager.MadeWithMV.Parameters['baseurl']}/auth`, true);
