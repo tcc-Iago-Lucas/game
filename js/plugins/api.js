@@ -25,6 +25,9 @@
   
 
   api = {
+    responseLogin(json){
+      
+    },
     getAjax() {
       var ajax;
       if (ajax == null) {
@@ -34,7 +37,22 @@
     },
     login(json){
       alert("body: " + JSON.stringify(json))
-      var ajax = this.getAjax();
+      fetch(`${manager.MadeWithMV.Parameters['baseurl']}/auth`, {
+        method: "POST",
+        body: JSON.stringify(json),
+        headers: {"Content-type": "application/json; charset=UTF-8"}
+      })
+      .then(response => response.json()) 
+      .then(json => {
+        $gameVariables._data[97] = 1
+        $gameVariables._data[99] = 1;
+        manager.MadeWithMV.Parameters['token'] = "Bearer " + json.token;
+      })
+      .catch(err => {
+        $gameVariables._data[97] = 1
+        console.log(err)
+      });
+      /*var ajax = this.getAjax();
       ajax.open("POST", `${manager.MadeWithMV.Parameters['baseurl']}/auth`, true);
       ajax.setRequestHeader("Content-type", "application/json;charset=UTF-8");
       ajax.onreadystatechange = async function () {
@@ -52,10 +70,21 @@
          alert(JSON.stringify(ajax.response));
         }
       };
-      ajax.send(JSON.stringify(json));
+      ajax.send(JSON.stringify(json));*/
     },
     post(json) {
-      var ajax = this.getAjax();
+      fetch(`${manager.MadeWithMV.Parameters['baseurl']}/respostas`, {
+        method: "POST",
+        body: JSON.stringify(json),
+        headers: {"Content-type": "application/json; charset=UTF-8",
+          "Authorization" : `${manager.MadeWithMV.Parameters['token']}`}
+      
+      }).then(response => response.json()) 
+      .then(json => {
+        console.log(json);
+      })
+      .catch(err => console.log(err));
+     /* var ajax = this.getAjax();
       ajax.open("POST", `${manager.MadeWithMV.Parameters['baseurl']}/respostas`, true);
       ajax.setRequestHeader("Content-type", "application/json;charset=UTF-8");
       ajax.setRequestHeader("Authorization", `${manager.MadeWithMV.Parameters['token']}`);
@@ -67,7 +96,7 @@
           console.log("response da api,  ", JSON.parse(ajax.response));
         }
       };
-      ajax.send(JSON.stringify(json));
+      ajax.send(JSON.stringify(json));*/
     },
     get() {
       console.log("veio no get api");
